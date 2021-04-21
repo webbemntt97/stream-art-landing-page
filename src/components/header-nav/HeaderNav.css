@@ -1,0 +1,20 @@
+#nav-header {
+    padding: 26px 165px;
+}
+
+#nav-header img {
+    margin-right: 16px;
+}
+
+#nav-header a {
+    margin: 0 16px;
+    text-decoration: none;
+    font-family: Manrope, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+
+    font-feature-settings: 'liga' off;
+
+    color: #18191F;
+}
