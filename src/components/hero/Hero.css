@@ -1,0 +1,133 @@
+/*div {
+    position: absolute;
+    width: 100vw;
+    height: 866px;
+    background: #FFAD00;
+}
+
+img {
+    position: absolute;
+    top: 33.83%;
+    left: 31.9%;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+
+    position: absolute;
+    width: 540px;
+    height: 402px;
+    left: 165px;
+    top: 256px;
+}
+
+.hero-title {
+    font-family: Manrope, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+
+    font-feature-settings: 'liga' off;
+
+    color: #18191F;
+    position: static;
+    width: 540px;
+    height: 196px;
+}
+
+.hero-slogan {
+    position: static;
+    width: 540px;
+    height: 96px;
+
+    top: 212px;
+
+    font-family: Manrope, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+
+    font-feature-settings: 'liga' off;
+
+    color: #18191F;
+}
+
+*/
+
+#hero-container {
+    background-color: #FFAD00;
+    height: 950px;
+    padding: 0 165px;
+}
+
+#hero-container .col-6 {
+    height: 100vh;
+}
+
+#hero-content {
+    margin-top: calc(50vh - 386px / 2);
+}
+
+#hero-container img {
+    margin-left: 100px;
+    margin-top: calc(50vh - 347px / 2);
+}
+
+.hero-cta {
+    cursor: default;
+    border: #FF4D00;
+    background: #FF4D00;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: Manrope, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 16px 30px;
+}
+
+.hero-slogan {
+    font-family: Manrope, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+
+    font-feature-settings: 'liga' off;
+
+    color: #18191F;
+}
+
+.hero-title {
+    font-family: Manrope, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+
+    font-feature-settings: 'liga' off;
+
+    color: #18191F;
+}
+
+.hero-cta:hover {
+    border: #ff3700;
+    background: #ff3700;
+}
+
+.hero-cta:active {
+    border: #ff3700;
+    background-color: #ff3700 !important;
+}
+
+.hero-cta:focus {
+    border: #ff3700;
+    background: #ff3700;
+    box-shadow: 0 0 0 0.2rem rgba(255, 55, 0, 0.5) !important;
+}
+

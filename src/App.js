@@ -1,25 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Hero from "./components/hero/Hero";
+import WaveDiv from "./components/wave-div/WaveDiv";
+import React from "react";
+import HowItWorks from "./components/how-it-works/HowItWorks";
+import StatisticsBox from "./components/statistics-box/StatisticsBox";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends React.Component {
+    render() {
+        return (
+            <div>
+                <Hero/>
+                <WaveDiv/>
+                <HowItWorks />
+                <StatisticsBox />
+            </div>
+        )
+    }
 }
 
-export default App;

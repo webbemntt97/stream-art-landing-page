@@ -1,0 +1,33 @@
+#statistics-box-container {
+    margin-bottom: 80px;
+    margin-top: 80px;
+    padding: 0 165px;
+}
+
+#statistics-box-title {
+    margin: 0;
+}
+
+#statistics-box-title p {
+    font-family: Manrope, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+
+    font-feature-settings: 'liga' off;
+
+    color: #18191F;
+}
+
+.featured-statistic {
+    font-family: Manrope, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+
+    font-feature-settings: 'liga' off;
+
+    color: #18191F;
+    margin-bottom: 0;
+    margin-top: 0;
+}

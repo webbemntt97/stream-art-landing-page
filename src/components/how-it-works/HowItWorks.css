@@ -1,0 +1,39 @@
+#how-it-work-container {
+    height: 520px;
+}
+
+#step-boxes .step-box {
+    margin: 50px 50px;
+}
+
+#how-it-work-head {
+    margin-top: 64px;
+}
+
+#how-it-work-head p {
+    font-family: Manrope, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+
+    text-align: center;
+    font-feature-settings: 'liga' off;
+
+    color: #18191F;
+}
+
+#step-title {
+    margin-top: 10px;
+}
+
+#step-title p {
+    font-family: Manrope, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+
+    text-align: center;
+    font-feature-settings: 'liga' off;
+
+    color: #18191F;
+}
